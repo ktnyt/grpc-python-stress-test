@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "grpc-python-stress-test"
+version = "0.1.0"
+description = ""
+authors = ["ktnyt <mirei.itaya@lapras.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+grpcio = "^1.66.1"
+grpcio-tools = "^1.66.1"
+watchdog = {extras = ["watchmedo"], version = "^5.0.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
